@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import dummyContacts from "../dummyData";
 import {ContactList} from "./"
 
+
 const Main = () => {
   const [contacts, setContacts] = useState(dummyContacts);
   return (
@@ -10,7 +11,7 @@ const Main = () => {
         <div>Contact List</div>
       </div>
       <div id="container">
-          <contactlist contacts={contacts}></contactlist>
+          <ContactList contacts={contacts}></ContactList>
       </div>
     </div>
   );

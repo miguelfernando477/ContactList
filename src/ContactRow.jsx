@@ -1,12 +1,13 @@
 import React from 'react';
 
-export { default as ContactRow } from "./ContactRow"
 
 const ContactRow = (props) =>{
-    return
-    <td>{props.name}</td>
-    <td>{props.phone}</td>
-    <td>{props.email}</td>
+    const contact = props.contact;
+    return<tr>
+    <td>{contact.name}</td>
+    <td>{contact.phone}</td>
+    <td>{contact.email}</td>
+    </tr>
 }
 
-export default ContactRow
+export default ContactRow;
