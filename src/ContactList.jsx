@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { default as ContactRow } from "./ContactRow.jsx"
 
 const ContactList = (props)=>
 {
